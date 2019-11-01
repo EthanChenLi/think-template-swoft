@@ -218,7 +218,7 @@ class Template
      * @param  array  $vars 模板变量
      * @return void
      */
-    public function fetch(string $template, array $vars = []): void
+    public function fetch(string $template, array $vars = [])
     {
         if ($vars) {
             $this->data = array_merge($this->data, $vars);
@@ -258,7 +258,7 @@ class Template
                 $this->cache->set($this->config['cache_id'], $content, $this->config['cache_time']);
             }
 
-            echo $content;
+            return $content;
         }
     }
 
