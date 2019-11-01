@@ -1,0 +1,20 @@
+{
+    "name": "EthanChenLi/think-template-swoft",
+    "description": "the php template engine for swoft 2.x",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "ethan",
+            "email": "touch_789@163.com"
+        }
+    ],
+    "require": {
+	   "php": ">=7.1.0",
+       "psr/simple-cache": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        }
+    }
+}
