@@ -6,7 +6,12 @@
 
 该版本为开发版本，不保证功能长期支持。
 
-使用方法：
+### 安装方法
+```
+composer require ethan-chen-li/think-template-swoft
+```
+
+### 使用方法：
 ```php
 	$dir = __DIR__."/../../";
 	$config = [
